@@ -35,6 +35,6 @@ def upload():
     })
 
     return jsonify({'status': 'success'})
-
+*************** อันนี้ต้องเอ่าไปแก้เอง**********************
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
